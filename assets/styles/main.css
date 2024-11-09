@@ -576,11 +576,132 @@ footer a {
 
   /* Contacts Section */
 
-.contact__items {
-	flex-direction: column;
+  .contact__items {
+    flex-direction: column;
   }
-  
+
   .contact__item__img {
-	margin-top: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .section {
+    padding: 30px;
+  }
+
+  .perfil {
+    height: 200px;
+    width: 200px;
+  }
+
+  .icon {
+    width: 35px;
+  }
+
+  .pd-default {
+    padding: 30px;
+  }
+
+  .gap-default {
+    gap: 10px;
+  }
+
+  /* Nav Responsivo */
+
+  .nav {
+    padding: 0 20px;
+  }
+
+  .nav__logo {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  .nav__toggle img {
+    width: 30px;
+  }
+
+  .nav__list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    background-color: #333333;
+    z-index: 10;
+  }
+
+  .nav__list.active {
+    display: flex;
+  }
+
+  .nav__list__link {
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-secondary);
+  }
+
+  /* Hero Section */
+
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .hero__btn {
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  /* Soft Skill Section */
+
+  .softskill {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .softskill__text {
+    align-items: center;
+    width: 100vw;
+  }
+
+  .softskill__list {
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+  }
+
+  .softskill__list li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* Contacts Section */
+
+  .contact__items {
+    flex-direction: column;
+  }
+
+  .contact__item__img {
+    margin-top: 30px;
   }
 }
