@@ -2,7 +2,6 @@
 
 Este projeto é uma vitrine do meu trabalho como desenvolvedora Front End, onde você pode explorar os projetos que desenvolvi, minhas habilidades técnicas e um pouco mais sobre mim.
 
-## ▶️ Demonstração
 Você pode acessar o portfólio online clicando [aqui](https://ellxsm.github.io/portfolio/).
 
 ## 🤖 Tecnologias Utilizadas
